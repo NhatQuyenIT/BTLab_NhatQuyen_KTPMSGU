@@ -1,0 +1,470 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3" pages="5">
+  <diagram id="Z0WIjmu3cc067qdH5-6t" name="Trang-5">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QNJ1WGYdRAF6S3Wjx_WD-1" value="Online Library System&lt;br/&gt;(Thư viện trực tuyến)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#34a853;fillColor=#e6f4ea;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="319" y="480" width="500" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="QNJ1WGYdRAF6S3Wjx_WD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="QNJ1WGYdRAF6S3Wjx_WD-4" target="QNJ1WGYdRAF6S3Wjx_WD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNJ1WGYdRAF6S3Wjx_WD-3" value="Tìm kiếm / Mượn / Gia hạn" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="QNJ1WGYdRAF6S3Wjx_WD-2">
+          <mxGeometry x="0.0621" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QNJ1WGYdRAF6S3Wjx_WD-4" value="Người đọc" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-166" y="315" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QNJ1WGYdRAF6S3Wjx_WD-5" value="Thủ thư / Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-166" y="784" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QNJ1WGYdRAF6S3Wjx_WD-6" value="Hệ thống thanh toán" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1a73e8;fillColor=#e8f0fe;" vertex="1" parent="1">
+          <mxGeometry x="1111" y="537" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QNJ1WGYdRAF6S3Wjx_WD-7" value="Quản lý kho / Duyệt yêu cầu" style="endArrow=block;endFill=1;rounded=0;edgeStyle=elbowEdgeStyle;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="QNJ1WGYdRAF6S3Wjx_WD-5" target="QNJ1WGYdRAF6S3Wjx_WD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNJ1WGYdRAF6S3Wjx_WD-8" value="Thanh toán phí trễ hạn / thành viên" style="endArrow=block;endFill=1;rounded=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="QNJ1WGYdRAF6S3Wjx_WD-1" target="QNJ1WGYdRAF6S3Wjx_WD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNJ1WGYdRAF6S3Wjx_WD-9" value="System Context" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=40;fontStyle=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="473" y="1243" width="272" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UP81xIggnfzdt6HGKHtI-1" value="Online Library System" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#34a853;fillColor=#e6f4ea;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1433" y="699" width="1008" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="UP81xIggnfzdt6HGKHtI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UP81xIggnfzdt6HGKHtI-4" target="UP81xIggnfzdt6HGKHtI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UP81xIggnfzdt6HGKHtI-3" value="HTTPS / REST JSON" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="UP81xIggnfzdt6HGKHtI-2">
+          <mxGeometry x="-0.3774" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UP81xIggnfzdt6HGKHtI-4" value="Web App (SPA) React/Vite" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1471" y="780" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UP81xIggnfzdt6HGKHtI-5" value="Mobile App React Native" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1441" y="966" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UP81xIggnfzdt6HGKHtI-6" value="Backend API (Node/Spring)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="843" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UP81xIggnfzdt6HGKHtI-7" value="Payment Service Adapter" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1781" y="1169" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UP81xIggnfzdt6HGKHtI-8" value="Library DB (PostgreSQL)" style="shape=cylinder;whiteSpace=wrap;html=1;strokeColor=#a142f4;fillColor=#f3e8fd;" vertex="1" parent="1">
+          <mxGeometry x="2194" y="840" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UP81xIggnfzdt6HGKHtI-9" value="Hệ thống thanh toán" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1a73e8;fillColor=#e8f0fe;" vertex="1" parent="1">
+          <mxGeometry x="2152" y="1024" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UP81xIggnfzdt6HGKHtI-10" value="HTTPS / REST JSON" style="endArrow=block;endFill=1;rounded=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="UP81xIggnfzdt6HGKHtI-5" target="UP81xIggnfzdt6HGKHtI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UP81xIggnfzdt6HGKHtI-11" value="CRUD/JPA/ORM" style="endArrow=block;endFill=1;rounded=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="UP81xIggnfzdt6HGKHtI-6" target="UP81xIggnfzdt6HGKHtI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UP81xIggnfzdt6HGKHtI-12" value="Tạo yêu cầu thu phí" style="endArrow=block;endFill=1;rounded=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="UP81xIggnfzdt6HGKHtI-6" target="UP81xIggnfzdt6HGKHtI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UP81xIggnfzdt6HGKHtI-13" value="Redirect / Webhook" style="endArrow=block;endFill=1;rounded=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="UP81xIggnfzdt6HGKHtI-7" target="UP81xIggnfzdt6HGKHtI-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UP81xIggnfzdt6HGKHtI-14" value="Container" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=40;fontStyle=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1815" y="1682" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IBv_blaesPgYZ-qXMBVg-1" value="Web App (SPA)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2588" y="1340" width="1120" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="IBv_blaesPgYZ-qXMBVg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IBv_blaesPgYZ-qXMBVg-4" target="IBv_blaesPgYZ-qXMBVg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IBv_blaesPgYZ-qXMBVg-3" value="GET /books?query=" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="IBv_blaesPgYZ-qXMBVg-2">
+          <mxGeometry x="-0.2761" y="2" relative="1" as="geometry">
+            <mxPoint x="-17" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IBv_blaesPgYZ-qXMBVg-4" value="Module Tìm kiếm sách (SearchModule)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#5f6368;fillColor=#f1f3f4;" vertex="1" parent="1">
+          <mxGeometry x="2881" y="1348" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IBv_blaesPgYZ-qXMBVg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IBv_blaesPgYZ-qXMBVg-7" target="IBv_blaesPgYZ-qXMBVg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IBv_blaesPgYZ-qXMBVg-6" value="POST /loans, PUT /loans/{id}/return" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="IBv_blaesPgYZ-qXMBVg-5">
+          <mxGeometry x="-0.6791" y="2" relative="1" as="geometry">
+            <mxPoint x="-78" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IBv_blaesPgYZ-qXMBVg-7" value="Module Mượn/Trả (BorrowModule)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#5f6368;fillColor=#f1f3f4;" vertex="1" parent="1">
+          <mxGeometry x="2762" y="1575" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IBv_blaesPgYZ-qXMBVg-8" value="Module Quản lý tài khoản (AccountModule)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#5f6368;fillColor=#f1f3f4;" vertex="1" parent="1">
+          <mxGeometry x="3275" y="1445" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IBv_blaesPgYZ-qXMBVg-9" value="UI Layout / Router / State (React Router, Zustand/Redux)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#5f6368;fillColor=#f1f3f4;" vertex="1" parent="1">
+          <mxGeometry x="2625" y="1801" width="1020" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IBv_blaesPgYZ-qXMBVg-10" value="Backend API" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1a73e8;fillColor=#e8f0fe;" vertex="1" parent="1">
+          <mxGeometry x="2408" y="1460" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IBv_blaesPgYZ-qXMBVg-11" value="Auth / Profile / History" style="endArrow=block;endFill=1;rounded=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="IBv_blaesPgYZ-qXMBVg-8" target="IBv_blaesPgYZ-qXMBVg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IBv_blaesPgYZ-qXMBVg-12" value="Component" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=40;fontStyle=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="2967" y="2311" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BorrowService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- repo: BorrowRepository&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- fineCalc: FineCalculator&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- payClient: PaymentClient&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;createLoan(userId: UUID, bookId: UUID): LoanRecord&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ returnBook(loanId: UUID): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ extendLoan(loanId: UUID, days: int): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- checkAvailability(book: Book): boolean&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- computeDueDate(): Date&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="4314" y="2097" width="314" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;FineCalculator&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ calculateFine(l: LoanRecord, now: DateTime): Money&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="4724" y="2783" width="242" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9FTkA4z2sUte42JzbX13-4" target="9FTkA4z2sUte42JzbX13-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BorrowController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 4px 0px 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ createLoan(req): Response&lt;/span&gt;&lt;/p&gt;&lt;div&gt;+ returnBook(req): Response&lt;br&gt;+ extendLoan(req): Response&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3645" y="2106" width="242" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Reader&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- id: UUID&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;- name: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- email: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- membershipLevel: String&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3947" y="2865" width="240" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Book&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- id: UUID&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- title: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- author: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- copies: int&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ isAvailable(): boolean&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3711" y="2518" width="236" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BorrowRepository&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- dataSource: DataSource&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ save(l: LoanRecord): void&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ findById(id: UUID): LoanRecord&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ findActiveByUser(userId: UUID): List&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="4343" y="1673" width="248" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;PaymentClient&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ charge(readerId: UUID, amount: Money): PaymentResult&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ refund(readerId: UUID, amount: Money): PaymentResult&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="5065" y="2785" width="353" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9FTkA4z2sUte42JzbX13-10" target="9FTkA4z2sUte42JzbX13-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4471" y="2950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LoanRecord&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- id: UUID&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- bookId: UUID&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- readerId: UUI&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- borrowedAt: DateTime&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- dueAt: DateTime&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- returnedAt: DateTime?&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- fineAmount: Money&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ isOverdue(now: DateTime): boolean&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="4349.5" y="2506" width="243" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-11" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9FTkA4z2sUte42JzbX13-1" target="9FTkA4z2sUte42JzbX13-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="4739" y="2188" as="sourcePoint" />
+            <mxPoint x="5378" y="2154" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="5242" y="2153" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-12" value="charges/refunds" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="9FTkA4z2sUte42JzbX13-11">
+          <mxGeometry x="0.3018" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-13" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="9FTkA4z2sUte42JzbX13-1" target="9FTkA4z2sUte42JzbX13-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="4703" y="2232" as="sourcePoint" />
+            <mxPoint x="5042" y="2242" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4852" y="2247" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-14" value="calculates fine" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="9FTkA4z2sUte42JzbX13-13">
+          <mxGeometry x="0.2172" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-15" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="9FTkA4z2sUte42JzbX13-1" target="9FTkA4z2sUte42JzbX13-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="4194" y="2266" as="sourcePoint" />
+            <mxPoint x="4354" y="2266" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-16" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9FTkA4z2sUte42JzbX13-1" target="9FTkA4z2sUte42JzbX13-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="4194" y="2488" as="sourcePoint" />
+            <mxPoint x="4354" y="2488" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-17" value="creates/updates" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="9FTkA4z2sUte42JzbX13-16">
+          <mxGeometry x="-0.0764" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9FTkA4z2sUte42JzbX13-10" target="9FTkA4z2sUte42JzbX13-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-19" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9FTkA4z2sUte42JzbX13-1" target="9FTkA4z2sUte42JzbX13-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="4194" y="2488" as="sourcePoint" />
+            <mxPoint x="4354" y="2488" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-20" value="checks availability" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="9FTkA4z2sUte42JzbX13-19">
+          <mxGeometry x="0.0353" y="6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-21" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9FTkA4z2sUte42JzbX13-1" target="9FTkA4z2sUte42JzbX13-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="4510" y="2421" as="sourcePoint" />
+            <mxPoint x="4025" y="2642" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-22" value="validates" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="9FTkA4z2sUte42JzbX13-21">
+          <mxGeometry x="-0.2751" y="-8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FTkA4z2sUte42JzbX13-23" value="Code" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=40;fontStyle=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="4486" y="3256" width="102" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="C1" name="C1 - Context">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1_sys" value="Online Library System&lt;br/&gt;(Thư viện trực tuyến)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#34a853;fillColor=#e6f4ea;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="642" y="223" width="500" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="NefYsA_R3LDf9MryFN-Y-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="c1_reader" target="c1_sys">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NefYsA_R3LDf9MryFN-Y-3" value="Tìm kiếm / Mượn / Gia hạn" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="NefYsA_R3LDf9MryFN-Y-2">
+          <mxGeometry x="0.0621" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c1_reader" value="Người đọc" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="157" y="58" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_librarian" value="Thủ thư / Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="157" y="527" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_pay" value="Hệ thống thanh toán" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1a73e8;fillColor=#e8f0fe;" vertex="1" parent="1">
+          <mxGeometry x="1434" y="280" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_e2" value="Quản lý kho / Duyệt yêu cầu" style="endArrow=block;endFill=1;rounded=0;edgeStyle=elbowEdgeStyle;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="c1_librarian" target="c1_sys">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_e3" value="Thanh toán phí trễ hạn / thành viên" style="endArrow=block;endFill=1;rounded=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="c1_sys" target="c1_pay">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="C2" name="C2 - Container">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c2_boundary" value="Online Library System" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#34a853;fillColor=#e6f4ea;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="333" y="56" width="1008" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="lCvIdL3ysu9YG6aRXP6L-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c2_web" target="c2_api">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lCvIdL3ysu9YG6aRXP6L-3" value="HTTPS / REST JSON" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="lCvIdL3ysu9YG6aRXP6L-2">
+          <mxGeometry x="-0.3774" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c2_web" value="Web App (SPA) React/Vite" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="371" y="137" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_mobile" value="Mobile App React Native" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="341" y="323" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_api" value="Backend API (Node/Spring)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="720" y="200" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_payment" value="Payment Service Adapter" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="681" y="526" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_db" value="Library DB (PostgreSQL)" style="shape=cylinder;whiteSpace=wrap;html=1;strokeColor=#a142f4;fillColor=#f3e8fd;" vertex="1" parent="1">
+          <mxGeometry x="1094" y="197" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_pay_ext" value="Hệ thống thanh toán" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1a73e8;fillColor=#e8f0fe;" vertex="1" parent="1">
+          <mxGeometry x="1052" y="381" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_e2" value="HTTPS / REST JSON" style="endArrow=block;endFill=1;rounded=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="c2_mobile" target="c2_api">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_e3" value="CRUD/JPA/ORM" style="endArrow=block;endFill=1;rounded=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="c2_api" target="c2_db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_e4" value="Tạo yêu cầu thu phí" style="endArrow=block;endFill=1;rounded=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="c2_api" target="c2_payment">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_e5" value="Redirect / Webhook" style="endArrow=block;endFill=1;rounded=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="c2_payment" target="c2_pay_ext">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="C3" name="C3 - Component (Web App)">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c3_web" value="Web App (SPA)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="230" y="140" width="1120" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="mPVpIfYhi9jnmukcnz0G-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c3_search" target="c3_api">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mPVpIfYhi9jnmukcnz0G-2" value="GET /books?query=" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="mPVpIfYhi9jnmukcnz0G-1">
+          <mxGeometry x="-0.2761" y="2" relative="1" as="geometry">
+            <mxPoint x="-17" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c3_search" value="Module Tìm kiếm sách (SearchModule)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#5f6368;fillColor=#f1f3f4;" vertex="1" parent="1">
+          <mxGeometry x="523" y="148" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="mPVpIfYhi9jnmukcnz0G-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="c3_borrow" target="c3_api">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mPVpIfYhi9jnmukcnz0G-4" value="POST /loans, PUT /loans/{id}/return" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="mPVpIfYhi9jnmukcnz0G-3">
+          <mxGeometry x="-0.6791" y="2" relative="1" as="geometry">
+            <mxPoint x="-78" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c3_borrow" value="Module Mượn/Trả (BorrowModule)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#5f6368;fillColor=#f1f3f4;" vertex="1" parent="1">
+          <mxGeometry x="404" y="375" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_account" value="Module Quản lý tài khoản (AccountModule)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#5f6368;fillColor=#f1f3f4;" vertex="1" parent="1">
+          <mxGeometry x="917" y="245" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_common" value="UI Layout / Router / State (React Router, Zustand/Redux)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#5f6368;fillColor=#f1f3f4;" vertex="1" parent="1">
+          <mxGeometry x="267" y="601" width="1020" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_api" value="Backend API" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1a73e8;fillColor=#e8f0fe;" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_e3" value="Auth / Profile / History" style="endArrow=block;endFill=1;rounded=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="c3_account" target="c3_api">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="C4" name="C4 - Code (Borrow Management)">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mNVgvl0y7L5g9_StrNQH-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BorrowService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- repo: BorrowRepository&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- fineCalc: FineCalculator&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- payClient: PaymentClient&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;createLoan(userId: UUID, bookId: UUID): LoanRecord&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ returnBook(loanId: UUID): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ extendLoan(loanId: UUID, days: int): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- checkAvailability(book: Book): boolean&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- computeDueDate(): Date&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="846" y="142" width="314" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mNVgvl0y7L5g9_StrNQH-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;FineCalculator&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ calculateFine(l: LoanRecord, now: DateTime): Money&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1256" y="828" width="242" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="lP4NzQyWJ38zZ8tvSLnJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mNVgvl0y7L5g9_StrNQH-5" target="mNVgvl0y7L5g9_StrNQH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mNVgvl0y7L5g9_StrNQH-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BorrowController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 4px 0px 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ createLoan(req): Response&lt;/span&gt;&lt;/p&gt;&lt;div&gt;+ returnBook(req): Response&lt;br&gt;+ extendLoan(req): Response&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="177" y="151" width="242" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="mNVgvl0y7L5g9_StrNQH-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Reader&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- id: UUID&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;- name: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- email: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- membershipLevel: String&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="479" y="910" width="240" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="mNVgvl0y7L5g9_StrNQH-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Book&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- id: UUID&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- title: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- author: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- copies: int&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ isAvailable(): boolean&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="243" y="563" width="236" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="mNVgvl0y7L5g9_StrNQH-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BorrowRepository&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;text-align: left; margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- dataSource: DataSource&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ save(l: LoanRecord): void&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ findById(id: UUID): LoanRecord&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ findActiveByUser(userId: UUID): List&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="875" y="-282" width="248" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="mNVgvl0y7L5g9_StrNQH-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;PaymentClient&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ charge(readerId: UUID, amount: Money): PaymentResult&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ refund(readerId: UUID, amount: Money): PaymentResult&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1597" y="830" width="353" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="4Jwv58gLBRH2YkaiXtol-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mNVgvl0y7L5g9_StrNQH-11" target="mNVgvl0y7L5g9_StrNQH-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1003" y="995" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNVgvl0y7L5g9_StrNQH-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LoanRecord&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- id: UUID&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- bookId: UUID&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- readerId: UUI&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- borrowedAt: DateTime&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- dueAt: DateTime&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- returnedAt: DateTime?&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- fineAmount: Money&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ isOverdue(now: DateTime): boolean&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="881.5" y="551" width="243" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="8w4ocNMMA72ZrByv6vpw-1" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mNVgvl0y7L5g9_StrNQH-3" target="mNVgvl0y7L5g9_StrNQH-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1271" y="233" as="sourcePoint" />
+            <mxPoint x="1910" y="199" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1774" y="198" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LimQi_MemyXc9eIlYYaW-1" value="charges/refunds" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="8w4ocNMMA72ZrByv6vpw-1">
+          <mxGeometry x="0.3018" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8w4ocNMMA72ZrByv6vpw-2" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="mNVgvl0y7L5g9_StrNQH-3" target="mNVgvl0y7L5g9_StrNQH-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1235" y="277" as="sourcePoint" />
+            <mxPoint x="1574" y="287" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1384" y="292" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FkhDCm2V4Ru0XIGFtgU-1" value="calculates fine" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="8w4ocNMMA72ZrByv6vpw-2">
+          <mxGeometry x="0.2172" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zQAUPAMzU5oRbt35m7qo-1" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="mNVgvl0y7L5g9_StrNQH-3" target="mNVgvl0y7L5g9_StrNQH-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="726" y="311" as="sourcePoint" />
+            <mxPoint x="886" y="311" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S5ScpaeWIXR9CiVHX56S-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mNVgvl0y7L5g9_StrNQH-3" target="mNVgvl0y7L5g9_StrNQH-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="726" y="533" as="sourcePoint" />
+            <mxPoint x="886" y="533" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BuCEpViiV3LbJwAMpPt6-1" value="creates/updates" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="S5ScpaeWIXR9CiVHX56S-3">
+          <mxGeometry x="-0.0764" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Jwv58gLBRH2YkaiXtol-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mNVgvl0y7L5g9_StrNQH-11" target="mNVgvl0y7L5g9_StrNQH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G--lz1vjiUA4VruogGAV-1" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mNVgvl0y7L5g9_StrNQH-3" target="mNVgvl0y7L5g9_StrNQH-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="726" y="533" as="sourcePoint" />
+            <mxPoint x="886" y="533" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPqLBlW2O2i8nMKDBZjr-1" value="checks availability" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="G--lz1vjiUA4VruogGAV-1">
+          <mxGeometry x="0.0353" y="6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G--lz1vjiUA4VruogGAV-2" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mNVgvl0y7L5g9_StrNQH-3" target="mNVgvl0y7L5g9_StrNQH-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1042" y="466" as="sourcePoint" />
+            <mxPoint x="557" y="687" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ht1tNVqQerS5bwNJZsKp-1" value="validates" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="G--lz1vjiUA4VruogGAV-2">
+          <mxGeometry x="-0.2751" y="-8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
